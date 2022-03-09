@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7B75C3B27D825A400A9EE42 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B75C3A27D825A400A9EE42 /* FeedCell.swift */; };
+		A7B75C3D27D8269500A9EE42 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B75C3C27D8269500A9EE42 /* Extensions.swift */; };
 		A7C3C66927CC547C00757779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C66827CC547C00757779 /* AppDelegate.swift */; };
 		A7C3C66B27CC547C00757779 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C66A27CC547C00757779 /* SceneDelegate.swift */; };
 		A7C3C66D27CC547C00757779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C66C27CC547C00757779 /* ViewController.swift */; };
 		A7C3C67027CC547C00757779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C3C66E27CC547C00757779 /* Main.storyboard */; };
 		A7C3C67227CC547E00757779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C3C67127CC547E00757779 /* Assets.xcassets */; };
 		A7C3C67527CC547E00757779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C3C67327CC547E00757779 /* LaunchScreen.storyboard */; };
+		A7C3C67D27CC58AB00757779 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A7C3C67C27CC58AB00757779 /* README.md */; };
+		A7C3C68727CC5A7900757779 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C68627CC5A7900757779 /* MainTabController.swift */; };
+		A7C3C68927CC5BB100757779 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C68827CC5BB100757779 /* FeedController.swift */; };
+		A7C3C68B27CC5BBC00757779 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C68A27CC5BBC00757779 /* SearchController.swift */; };
+		A7C3C68D27CC5BD500757779 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C68C27CC5BD500757779 /* ImageSelectorController.swift */; };
+		A7C3C68F27CC5BEA00757779 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C68E27CC5BEA00757779 /* NotificationsController.swift */; };
+		A7C3C69127CC5BF400757779 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C69027CC5BF400757779 /* ProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7B75C3A27D825A400A9EE42 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		A7B75C3C27D8269500A9EE42 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A7C3C66527CC547C00757779 /* instagram-firestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram-firestore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C3C66827CC547C00757779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7C3C66A27CC547C00757779 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		A7C3C67127CC547E00757779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7C3C67427CC547E00757779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7C3C67627CC547E00757779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7C3C67C27CC58AB00757779 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A7C3C68627CC5A7900757779 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		A7C3C68827CC5BB100757779 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		A7C3C68A27CC5BBC00757779 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		A7C3C68C27CC5BD500757779 /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		A7C3C68E27CC5BEA00757779 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		A7C3C69027CC5BF400757779 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,12 @@
 		A7C3C66727CC547C00757779 /* instagram-firestore */ = {
 			isa = PBXGroup;
 			children = (
+				A7C3C68327CC59C300757779 /* Model */,
+				A7C3C68227CC59BC00757779 /* View */,
+				A7C3C68127CC59B900757779 /* ViewModel */,
+				A7C3C67E27CC599900757779 /* Controller */,
+				A7C3C68427CC5A0D00757779 /* API */,
+				A7C3C68527CC5A2B00757779 /* Utils */,
 				A7C3C66827CC547C00757779 /* AppDelegate.swift */,
 				A7C3C66A27CC547C00757779 /* SceneDelegate.swift */,
 				A7C3C66C27CC547C00757779 /* ViewController.swift */,
@@ -63,8 +87,59 @@
 				A7C3C67127CC547E00757779 /* Assets.xcassets */,
 				A7C3C67327CC547E00757779 /* LaunchScreen.storyboard */,
 				A7C3C67627CC547E00757779 /* Info.plist */,
+				A7C3C67C27CC58AB00757779 /* README.md */,
 			);
 			path = "instagram-firestore";
+			sourceTree = "<group>";
+		};
+		A7C3C67E27CC599900757779 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7C3C68627CC5A7900757779 /* MainTabController.swift */,
+				A7C3C68827CC5BB100757779 /* FeedController.swift */,
+				A7C3C68A27CC5BBC00757779 /* SearchController.swift */,
+				A7C3C68C27CC5BD500757779 /* ImageSelectorController.swift */,
+				A7C3C68E27CC5BEA00757779 /* NotificationsController.swift */,
+				A7C3C69027CC5BF400757779 /* ProfileController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7C3C68127CC59B900757779 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A7C3C68227CC59BC00757779 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7B75C3A27D825A400A9EE42 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7C3C68327CC59C300757779 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7C3C68427CC5A0D00757779 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A7C3C68527CC5A2B00757779 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A7B75C3C27D8269500A9EE42 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +202,7 @@
 			files = (
 				A7C3C67527CC547E00757779 /* LaunchScreen.storyboard in Resources */,
 				A7C3C67227CC547E00757779 /* Assets.xcassets in Resources */,
+				A7C3C67D27CC58AB00757779 /* README.md in Resources */,
 				A7C3C67027CC547C00757779 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +215,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C3C66D27CC547C00757779 /* ViewController.swift in Sources */,
+				A7B75C3B27D825A400A9EE42 /* FeedCell.swift in Sources */,
+				A7C3C68D27CC5BD500757779 /* ImageSelectorController.swift in Sources */,
+				A7C3C68F27CC5BEA00757779 /* NotificationsController.swift in Sources */,
+				A7C3C68B27CC5BBC00757779 /* SearchController.swift in Sources */,
 				A7C3C66927CC547C00757779 /* AppDelegate.swift in Sources */,
+				A7C3C69127CC5BF400757779 /* ProfileController.swift in Sources */,
+				A7C3C68927CC5BB100757779 /* FeedController.swift in Sources */,
+				A7C3C68727CC5A7900757779 /* MainTabController.swift in Sources */,
+				A7B75C3D27D8269500A9EE42 /* Extensions.swift in Sources */,
 				A7C3C66B27CC547C00757779 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
