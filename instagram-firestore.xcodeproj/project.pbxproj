@@ -25,6 +25,7 @@
 		A7C3C69127CC5BF400757779 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C3C69027CC5BF400757779 /* ProfileController.swift */; };
 		A7C574BF282EC5DC00BE4E1B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C574BE282EC5DC00BE4E1B /* LoginController.swift */; };
 		A7C574C1282EC5EA00BE4E1B /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C574C0282EC5EA00BE4E1B /* RegistrationController.swift */; };
+		A7C7ABEE29C61A640061A5C9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7ABED29C61A640061A5C9 /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		A7C3C69027CC5BF400757779 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		A7C574BE282EC5DC00BE4E1B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		A7C574C0282EC5EA00BE4E1B /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		A7C7ABED29C61A640061A5C9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		A7C3C68127CC59B900757779 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A7C7ABED29C61A640061A5C9 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				A7B75C3B27D825A400A9EE42 /* FeedCell.swift in Sources */,
 				A7C3C68D27CC5BD500757779 /* ImageSelectorController.swift in Sources */,
 				A7C3C68F27CC5BEA00757779 /* NotificationsController.swift in Sources */,
+				A7C7ABEE29C61A640061A5C9 /* AuthenticationViewModel.swift in Sources */,
 				A7C3C68B27CC5BBC00757779 /* SearchController.swift in Sources */,
 				A7C3C66927CC547C00757779 /* AppDelegate.swift in Sources */,
 				A7C3C69127CC5BF400757779 /* ProfileController.swift in Sources */,
